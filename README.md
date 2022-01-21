@@ -3,6 +3,8 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.txt)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Learn how to integrate the [New Relix Elixir Agent](https://github.com/newrelic/elixir_agent) into your Phoenix web application.
 
 This is a fully functioning web application running on Phoenix that incorporates the New Relic Elixir agent to send telemetry data to the New Relic One dashboard. You can fork this repository to start building your own Phoenix app instrumented with New Relic, or copy and paste the relevant sections from it and add it to your own code.
@@ -44,6 +46,13 @@ config :new_relic_agent,
 Once you have done that, you can start your app locally by running `mix phx.server` from the command line and
 navigate to `localhost:4000` in your web browser.
 
+### Deploying to Heroku
+
+You can deploy the application directly from this GitHub repository by clicking on the `Deploy to Heroku` button at the top of this README. Once you do that you still must set your New Relic License key in Heroku. You can either do so at the time you are initializing your application after you have the clicked the `Deploy to Heroku` button above, or after from within the Heroku Dashboard.
+
+After you have clicked the above `Deploy to Heroku` button, you will see one option for the `config vars` in the Heroku deployment settings. Add your New Relic License Key before clicking the final `Deploy app` button. This will ensure your application is deployed to Heroku with your information.
+
+Alternatively, you can do so from with your Heroku Dashboard's application settings by [managing the config vars](https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard) for your Phoenix app after deploying. You will need to add the environment variable: `NEW_RELIC_LICENSE_KEY`.
 
 ## License
 
