@@ -14,7 +14,7 @@
   ],
   "env": {
     "NEW_RELIC_LICENSE_KEY": {
-      "description": "Please provide your New Relice License Key",
+      "description": "Please provide your New Relic License Key",
       "value": "license key goes here"
     }
   }
