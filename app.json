@@ -1,0 +1,21 @@
+{
+  "name": "New Relix Phoenix Example App",
+  "description": "A sample Elixir/Phoenix web application using New Relic",
+  "repository": "https://github.com/newrelic-experimental/nr-phoenix-demo-app",
+  "keywords": ["newrelic", "elixir", "phoenix", "monitoring"],
+  "addons": [ "heroku-postgresql" ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    },
+    {
+      "url": "https://github.com/gjaldon/heroku-buildpack-phoenix-static.git"
+    }
+  ],
+  "env": {
+    "NEW_RELIC_LICENSE_KEY": {
+      "description": "Please provide your New Relice License Key",
+      "value": "license key goes here"
+    }
+  }
+}
