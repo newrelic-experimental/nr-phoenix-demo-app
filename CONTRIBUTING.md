@@ -1,13 +1,30 @@
-# Getting Involved
- 
-Thanks for your interest in the project, we'd love to have you involved! Check out the sections below to find out more about what to do next...
- 
-## Opening an Issue
- 
-We always welcome issues, if you've seen something that isn't quite right or you have a suggestion for a new feature, please go ahead and open an issue in this project. Include as much information as you have, it really helps.
- 
-## Making a Code Change
- 
-We're always open to pull requests, but these should be small and clearly described so that we can understand what you're trying to do. Feel free to open an issue first and get some discussion going.
- 
-When you're ready to start coding, fork this repository to your own GitHub account and make your changes in a new branch. Once you're happy, open a pull request and explain what the change is and why you think we should include it in our project.
+# Contributing
+
+Contributions are always welcome. Before contributing please read the
+[code of conduct](https://github.com/newrelic/.github/blob/main/CODE_OF_CONDUCT.md) and [search the issue tracker](issues); your issue may have already been discussed or fixed in `main`. To contribute,
+[fork](https://help.github.com/articles/fork-a-repo/) this repository, commit your changes, and [send a Pull Request](https://help.github.com/articles/using-pull-requests/).
+
+Note that our [code of conduct](./CODE_OF_CONDUCT.md) applies to all platforms and venues related to this project; please follow it in all your interactions with the project and its participants.
+
+## Feature Requests
+
+Feature requests should be submitted in the [Issue tracker](../../issues), with a description of the expected behavior & use case, where they’ll remain closed until sufficient interest, [e.g. :+1: reactions](https://help.github.com/articles/about-discussions-in-issues-and-pull-requests/), has been [shown by the community](../../issues?q=label%3A%22votes+needed%22+sort%3Areactions-%2B1-desc).
+Before submitting an Issue, please search for similar ones in the
+[closed issues](../../issues?q=is%3Aissue+is%3Aclosed+label%3Aenhancement).
+
+## Pull Requests
+
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+2. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
+3. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+
+## Contributor License Agreement
+
+Keep in mind that when you submit your Pull Request, you'll need to sign the CLA via the click-through using CLA-Assistant. If you'd like to execute our corporate CLA, or if you have any questions, please drop us an email at opensource@newrelic.com.
+
+For more information about CLAs, please check out Alex Russell’s excellent post,
+[“Why Do I Need to Sign This?”](https://infrequently.org/2008/06/why-do-i-need-to-sign-this/).
+
+## Slack
+
+We host a public Slack with a dedicated channel for contributors and maintainers of open source projects hosted by New Relic.  If you are contributing to this project, you're welcome to request access to the #oss-contributors channel in the newrelicusers.slack.com workspace.  To request access, see https://newrelicusers-signup.herokuapp.com/.
